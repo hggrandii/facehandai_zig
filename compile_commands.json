@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/Users/drottinn/Documents/git/zigging/facehandai",
+    "command": "zig c++ -std=c++23 -I/opt/homebrew/opt/opencv/include/opencv4 -Isrc -c src/opencv_wrapper.cpp",
+    "file": "src/opencv_wrapper.cpp"
+  },
+  {
+    "directory": "/Users/drottinn/Documents/git/zigging/facehandai",
+    "command": "zig c++ -std=c++23 -Ilib/include -Isrc -c src/tflite_wrapper.cpp",
+    "file": "src/tflite_wrapper.cpp"
+  }
+]

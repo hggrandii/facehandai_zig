@@ -1,0 +1,12 @@
+.zig-cache/
+zig-out/
+
+tflite-src/tensorflow/lite/build/
+lib/*.a
+
+models/*.tflite
+models/*.task
+models/*.binarypb
+
+*.log
+
