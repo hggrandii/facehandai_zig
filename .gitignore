@@ -1,12 +1,30 @@
-.zig-cache/
 zig-out/
+.zig-cache/
+
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
 tflite-src/tensorflow/lite/build/
 lib/*.a
+*.a
+*.so
+*.dll
+*.dylib
 
 models/*.tflite
 models/*.task
 models/*.binarypb
+models/*.pb
 
-*.log
+.cache/
+.clangd/
+.cache/clangd/
+.cache/clangd/index/
+compile_commands.json
+.vscode/
+.idea/
 
+tflite-src
